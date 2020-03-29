@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Open Sans;
+}
+
+.containerHeader {
+    padding-top: 15px;
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(250, 242, 229);
+}
+
+.containerBlock {
+    margin: 0px auto;
+    
+    border-radius: 15px;
+    height: 384px;
+    width: 384px;
+    background-color: tomato;
+}
+
+.containerPole {
+    
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    height: 96%;
+}
+
+.containerSum {
+    font-weight: bold;
+    color: #aaaaaa;
+    margin-left: 12px;
+    padding-bottom: 6px;
+}
+
+input {
+    display: block;
+    width: 60%;
+    height: 24px;
+    border-radius: 18px;
+    margin-left: 12px;
+    border: 1px solid #DDDDDD;
+    outline: none;
+}
+
+#btn {
+    color: white;
+    display: block;
+    background-color: #00CC66;
+    border: none;
+    border-radius: 18px;
+    width: 60%;
+    height: 36px;
+    margin: 12px 0 0 12px;
+    transition: 0.3s;
+    outline: none
+}
+
+#btn:hover {
+    background-color: #00DD77;
+}
+
+.containerNumber {
+    background-color: rgb(102, 49, 49);
+    height: 24%;
+    width: 60%;
+    margin-top: 24px;
+    margin-left: 12px;
+}
